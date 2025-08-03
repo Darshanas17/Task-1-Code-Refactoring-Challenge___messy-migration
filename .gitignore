@@ -7,5 +7,5 @@ node_modules/
 # Lock file
 package-lock.json
 
-# Docs or logs
+# Docs
 CHANGES.md

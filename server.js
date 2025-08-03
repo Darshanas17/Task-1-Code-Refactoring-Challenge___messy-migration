@@ -1,5 +1,14 @@
 require("dotenv").config();
 
+["PORT", "JWT_SECRET", "JWT_EXPIRES_IN", "NODE_ENV", "SALT_ROUNDS"].forEach(
+  (varName) => {
+    if (!process.env[varName]) {
+      console.error(`Missing environment variable: ${varName}`);
+      process.exit(1);
+    }
+  }
+);
+
 const express = require("express");
 const helmet = require("helmet");
 const rateLimit = require("express-rate-limit");
