@@ -25,7 +25,7 @@ A secure, modular RESTful API for managing users, built with Node.js, Express, S
 
    ```sh
    git clone https://github.com/Darshanas17/Task-1-Code-Refactoring-Challenge___messy-migration.git
-   cd messy-migration-(task-1-code-refactoring-challenge)
+
    ```
 
 2. Install dependencies:
